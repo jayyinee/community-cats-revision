@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*body banner & font*/
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*navigation bar*/
+.topnav {
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0 2px 2px -2px rgba(0,0,0,.5);
+}
+
+.topnav a {
+  float: right;
+  color: Black;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topnav a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.topnav a.navLink {
+  background-color: none;
+  color; white;
+}
+
+/*banner*/
+.banner-image {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("stray-cats.jpg");
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.banner-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  white-space: nowrap;
+}
+
+.banner-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.banner-text button:hover {
+  background-color: gray;
+  color: black;
+}
+
+h1 {
+  line-height: 20px;
+}
+
+/* 2-column layout*/
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 35px;
+  white-space: nowrap;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 360px;
+  padding-right: 360px;
+}
+
+.column {
+  width: 50%;
+  padding: 10px;
+}
+
+h2 {
+  line-height: 20px;
+  font-size: 50px;
+}
+
+p {
+  font-size: 25px;
+}
+/*vertical layout*/
+.container2 {
+  position: relative;
+  text-align: left;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.banner-image2 {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("cats-sitting.jpg");
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.banner-text2 {
+  text-align: left;
+  position: absolute;
+  color: white;
+  padding: 100px;
+}
+
+.banner-image3 {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("cute-cats.jpg");
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.banner-text3 {
+  text-align: left;
+  position: absolute;
+  color: white;
+  padding: 100px;
+}
